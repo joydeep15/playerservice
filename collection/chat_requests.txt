@@ -1,0 +1,11 @@
+// Ollama list models
+curl --location 'http://localhost:8080/v1/chat/list-models'
+
+
+// Ollama chat
+curl --location 'http://localhost:8080/v1/chat/' \
+--header 'Content-Type: application/json' \
+--data '{
+  "model": "tinyllama",
+  "prompt": "Why is the sky blue?"
+}'

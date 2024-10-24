@@ -1,0 +1,4 @@
+GET http://localhost:8080/v1/players/allenga01
+Accept: application/json
+
+###
